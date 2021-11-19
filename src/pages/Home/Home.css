@@ -1,0 +1,191 @@
+.home {
+    text-align: center;
+}
+
+.description-block {
+    display: flex;
+    position: fixed;
+
+    height: 75vh;
+    width: 65vw;
+
+    margin-top: 20vh;
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+}
+
+.description-header {
+    display: flex;
+    position: fixed;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 5vh;
+
+    color: #CCCED7;
+}
+
+.description {
+    display: flex;
+    position: relative;
+
+    width: 100%;
+
+    margin-top: 3.7vw;
+
+    flex-direction: column;
+
+    background-color: #373946;
+    opacity: .7;
+
+    border-radius: 1.1vh;
+}
+
+.description-text-block {
+    display: flex;
+    position: relative;
+
+    height: 23%;
+    width: 59vw;
+
+    margin: 3vh 3vw;
+
+    text-align: left;
+    color: #CCCED7;
+
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.3vh;
+}
+
+.description-header > *:first-child {
+    margin-top: 4vh;
+}
+
+.description-delimeter {
+    display: flex;
+    position: relative;
+    width: 6vw;
+
+    margin-left: 29.5vw;
+}
+
+.feed {
+    display: flex;
+    position: fixed;
+
+    height: 75vh;
+    width: 20vw;
+
+    flex-direction: column;
+
+    margin-top: 20vh;
+    margin-left: 77vw;
+}
+
+.feed-header {
+    display: flex;
+    position: relative;
+
+    height: 15%;
+    width: 100%;
+
+    background-color: #77BA99;
+
+    font-family: Futura, sans-serif;
+    font-size: 2vh;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    color: #262730;
+    opacity: .7;
+
+    border-top-left-radius: 1.1vh;
+    border-top-right-radius: 1.1vh;
+}
+
+.feed-block {
+    display: flex;
+    position: relative;
+
+    height: 85%;
+    width: 100%;
+
+    background-color: #373946;
+
+    flex-direction: column;
+
+    opacity: .7;
+
+    border-bottom-left-radius: 1.1vh;
+    border-bottom-right-radius: 1.1vh;
+}
+
+.feed-post {
+    display: flex;
+    position: relative;
+
+    height: 27.5%;
+    width: 94%;
+
+    margin-top: 1.25vh;
+    margin-bottom: 1.25vh;
+    margin-left: 3%;
+
+    background-color: #262730;
+    border-radius: 1.1vh;
+
+    flex-direction: column;
+}
+
+.feed-post-header {
+    display: flex;
+    position: relative;
+
+    width: 94%;
+
+    margin-top: 1vh;
+    margin-left: 3%;
+
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.7vh;
+
+    color: #D33F49;
+}
+
+.feed-post-text {
+    display: flex;
+    position: relative;
+
+    width: 94%;
+    height: 60%;
+
+    margin-left: 3%;
+    margin-top: 2vh;
+
+
+    font-family: "Josefinn", sans-serif;
+    font-size: 1.3vh;
+    color: #D7C0D0;
+
+    text-align: left;
+}
+
+.feed-block > *:first-child {
+    margin-top: 2.5vh;
+}
+
+.feed-delimeter {
+    display: flex;
+    position: relative;
+
+    width: 1.8%;
+    height: 1%;
+
+    margin-left: 50%;
+}

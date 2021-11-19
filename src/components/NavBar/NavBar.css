@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    background-color: #373946;
+    opacity: .7;
+    height: 8vh;
+    width: 94vw;
+
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+    border-radius: 1.1vh;
+    position: fixed;
+}
+
+.button-list {
+    display: flex;
+    position: relative;
+
+    height: 50%;
+    width: 100%;
+
+    margin-top: 2vh;
+    justify-content: center;
+}
+
+.navbar-button {
+    display: block;
+    position: relative;
+
+    height: 100%;
+    width: 8vw;
+    font-size: 1.5vh;
+
+    margin-left: 4vw;
+    margin-right: 4vw;
+
+    font-family: Futura, sans-serif;
+    color: #77BA99;
+
+    filter:brightness(100%);
+
+
+    background: none;
+    border: none;
+}
+
+.navbar-button:hover {
+    color: white;
+}
+
