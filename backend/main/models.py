@@ -54,6 +54,7 @@ class User(AbstractBaseUser, PermissionsMixin):
 
 class ProfileManager(models.Manager):
     def create_profile(self, user_id, description):
+        print(user_id, description)
         profile = Profile(
             id = uuid4(),
             user_id = user_id,
@@ -63,10 +64,10 @@ class ProfileManager(models.Manager):
 
 class Profile(models.Model):
     id = models.UUIDField(primary_key=True, unique=True, default=uuid4())
-    user_id = models.ForeignKey(User, on_delete=models.CASCADE, unique=True)
+    user_id = models.ForeignKey(User, on_delete=models.CASCADE)
     description = models.TextField()
 
     objects = ProfileManager()
 
     def __str__(self):
-        return f"{self.id} {self.email} {self.description}"
+        return f"{self.id} {self.user_id} {self.description}"
