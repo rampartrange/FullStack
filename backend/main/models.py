@@ -60,6 +60,7 @@ class ProfileManager(models.Manager):
             user_id = user_id,
             description = description
         )
+        profile.save(using=self._db)
         return profile
 
 class Profile(models.Model):

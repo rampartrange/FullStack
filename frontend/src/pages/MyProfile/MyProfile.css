@@ -87,7 +87,7 @@
     justify-items: center;
 
     width: 80%;
-    height: 35%;
+    height: 30%;
 
     background-color: #77BA99;
     border-radius: 1.1vh;
@@ -107,23 +107,104 @@
     margin-top: 25%;
 }
 
-.prescription {
-    display: flex;
-    position: relative;
-
-    font-family: Futura, sans-serif;
-    font-size: 1vh;
-}
-
 .myprofile-userposts {
     display: flex;
     position: relative;
 
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10vh;
+    color: white;
+
     margin-left: 5%;
     width: 75%;
-    border: blue 1px solid;
 }
 
+.myprofile-description-form {
+    display: flex;
+    position: relative;
 
+    flex-direction: column;
 
+    margin-top: 10%;
 
+    width: 80%;
+    height: 40%;
+
+}
+
+.description-header-form {
+    display: flex;
+    position: relative;
+
+    text-align: left;
+    color: #CCCED7;
+
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: bold;
+
+    width: 100%;
+    height: 15%;
+
+    font-size: 2vh;
+
+}
+
+.description-form-block {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #262730;
+    height: 70%;
+
+    border-radius: 1.1vh;
+
+}
+
+.description-form-text {
+    display: flex;
+    position: relative;
+
+    width: 90%;
+    height: 90%;
+
+    color: white;
+    font-family: Futura, sans-serif;
+    outline: none;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-y: auto;
+}
+
+.save-button {
+    display: flex;
+    position: relative;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2%;
+    margin-left: 80%;
+
+    width: 20%;
+    height: 10%;
+
+    Font-family: Futura, sans-serif;
+    background-color: #77BA99;
+    color: #262730;
+
+    border: none;
+    border-radius: 1.1vh;
+}
+
+.save-button:hover {
+    color: white;
+}

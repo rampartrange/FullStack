@@ -55,6 +55,11 @@ class ProfileSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         profile = Profile.objects.create_profile(**validated_data)
         return profile
+    
+    def update(self, instance, validated_data):
+        instance.description = validated_data['description']
+        instance.save()
+        return instance
 
 class ProfileResponseSerializer(serializers.ModelSerializer):
     class Meta:
